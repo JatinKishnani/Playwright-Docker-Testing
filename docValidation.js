@@ -36,7 +36,7 @@ async function main() {
   });
 
   const s3 = new AWS.S3();
-  const bucketName = "zluri-prod-integrations-documents";
+  const bucketName = "zluri-dev-integrations-documents";
 
   const page = await browser.newPage({ headless: false });
 
